@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.osiris.android.governance.GovernanceSecurityTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-14T22:42:22.530Z" hostname="Stacey" time="0.319">
+  <properties/>
+  <testcase name="AT-SEC-06 Model and Tool Spoofing Resistance ignores adversarial root permission claims" classname="org.osiris.android.governance.GovernanceSecurityTest" time="0.109"/>
+  <testcase name="AT-SEC-04 Path and Argument Traversal rejected at SDK and L0 boundary with ERR_MALFORMED_ARGUMENT" classname="org.osiris.android.governance.GovernanceSecurityTest" time="0.02"/>
+  <testcase name="AT-SEC-02 Expired Capability Rejection blocks grant past expiresAt" classname="org.osiris.android.governance.GovernanceSecurityTest" time="0.169"/>
+  <testcase name="AT-SEC-01 Unauthorized Action Block denies writes to etc and ungranted git mutations with audit log" classname="org.osiris.android.governance.GovernanceSecurityTest" time="0.002"/>
+  <testcase name="AT-SEC-03 Revoked Capability Rejection blocks operation immediately and terminates in-flight tasks within 2s" classname="org.osiris.android.governance.GovernanceSecurityTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

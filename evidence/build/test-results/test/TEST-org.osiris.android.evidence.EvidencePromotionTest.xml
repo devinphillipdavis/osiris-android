@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.osiris.android.evidence.EvidencePromotionTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-14T22:42:26.094Z" hostname="Stacey" time="0.571">
+  <properties/>
+  <testcase name="AT-REL-02 branch protection enforcement blocks unauthorized merge to main" classname="org.osiris.android.evidence.EvidencePromotionTest" time="0.367"/>
+  <testcase name="DynamicEvidenceLedger maintains unbroken SHA-256 hash chain and Merkle root" classname="org.osiris.android.evidence.EvidencePromotionTest" time="0.059"/>
+  <testcase name="AT-REL-03 provenance verification rejects candidate missing toolchain or signing key identity" classname="org.osiris.android.evidence.EvidencePromotionTest" time="0.008"/>
+  <testcase name="AT-EVD-03 failing test blocks promotion with ERR_PROMOTION_BLOCKED" classname="org.osiris.android.evidence.EvidencePromotionTest" time="0.002"/>
+  <testcase name="AT-EVD-02 and AT-SEC-07 tampered artifact digest is rejected with ERR_EVIDENCE_TAMPERED" classname="org.osiris.android.evidence.EvidencePromotionTest" time="0.06"/>
+  <testcase name="AT-EVD-01 manifest completeness rejects missing mandatory fields" classname="org.osiris.android.evidence.EvidencePromotionTest" time="0.007"/>
+  <testcase name="AT-REL-01 human gate enforcement halts promotion until signed human approval is recorded" classname="org.osiris.android.evidence.EvidencePromotionTest" time="0.025"/>
+  <testcase name="AT-REL-04 rollback verification restores previous verified artifact within 60s and emits receipt" classname="org.osiris.android.evidence.EvidencePromotionTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

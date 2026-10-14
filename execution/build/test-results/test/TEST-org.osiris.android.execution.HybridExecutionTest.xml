@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.osiris.android.execution.HybridExecutionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-14T22:42:31.997Z" hostname="Stacey" time="0.407">
+  <properties/>
+  <testcase name="AT-HYB-02 local adapter execution runs within sandbox and produces EvaluationReport and EvidenceManifest" classname="org.osiris.android.execution.HybridExecutionTest" time="0.358"/>
+  <testcase name="AT-HYB-03 and AT-HYB-04 remote execution and network disconnection recovery" classname="org.osiris.android.execution.HybridExecutionTest" time="0.019"/>
+  <testcase name="AT-HYB-01 offline composition persistence saves and restores drafts across restarts" classname="org.osiris.android.execution.HybridExecutionTest" time="0.004"/>
+  <testcase name="AT-API-03 state machine rejects illegal transition from DRAFT directly to COMPLETED" classname="org.osiris.android.execution.HybridExecutionTest" time="0.004"/>
+  <testcase name="AT-HYB-06 cancellation SLA halts running job within 2000ms and revokes grant" classname="org.osiris.android.execution.HybridExecutionTest" time="0.004"/>
+  <testcase name="AT-PERF-04 streaming log backpressure handles 10,000 lines without OOM or frame drop" classname="org.osiris.android.execution.HybridExecutionTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

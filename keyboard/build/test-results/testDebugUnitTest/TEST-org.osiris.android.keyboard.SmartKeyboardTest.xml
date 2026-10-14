@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.osiris.android.keyboard.SmartKeyboardTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-14T22:42:29.459Z" hostname="Stacey" time="0.335">
+  <properties/>
+  <testcase name="AT-IME-04 explicit voice composition populates editable buffer and never auto-executes" classname="org.osiris.android.keyboard.SmartKeyboardTest" time="0.185"/>
+  <testcase name="AT-IME-02 password and PIN field redaction disables predictions, logging, and intent conversion" classname="org.osiris.android.keyboard.SmartKeyboardTest" time="0.064"/>
+  <testcase name="AT-IME-05 developer deck symbols and cursor navigation operate accurately" classname="org.osiris.android.keyboard.SmartKeyboardTest" time="0.015"/>
+  <testcase name="AT-PERF-03 keyboard key-press p95 latency is well below 25ms" classname="org.osiris.android.keyboard.SmartKeyboardTest" time="0.017"/>
+  <testcase name="AT-IME-03 cross-app isolation blocks background exfiltration when user has not explicitly tapped convert" classname="org.osiris.android.keyboard.SmartKeyboardTest" time="0.0"/>
+  <testcase name="AT-IME-07 split-thumb layout switches between folded cover screen and unfolded inner display" classname="org.osiris.android.keyboard.SmartKeyboardTest" time="0.0"/>
+  <testcase name="AT-IME-06 intent preview gate requires explicit confirmation before dispatch" classname="org.osiris.android.keyboard.SmartKeyboardTest" time="0.051"/>
+  <testcase name="AT-IME-01 standard text entry commits composing and deletion accurately" classname="org.osiris.android.keyboard.SmartKeyboardTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.osiris.android.evaluation.EvaluationEngineTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-14T22:42:28.215Z" hostname="Stacey" time="0.177">
+  <properties/>
+  <testcase name="AT-EVD-04 missing evaluator marks outcome INCONCLUSIVE and never TESTED_PASS" classname="org.osiris.android.evaluation.EvaluationEngineTest" time="0.083"/>
+  <testcase name="AT-HYB-05 normalized evaluation reports across local and remote execution adapters" classname="org.osiris.android.evaluation.EvaluationEngineTest" time="0.028"/>
+  <testcase name="AT-EVD-04 crashing evaluator marks outcome INCONCLUSIVE and never TESTED_PASS" classname="org.osiris.android.evaluation.EvaluationEngineTest" time="0.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,32 @@
+name: OSIRIS Android CI & Release Gate (OSIRIS-ANDROID-SPEC-001)
+
+on:
+  push:
+    branches: [ main, "feature/**" ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  verify-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21 & 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: |
+            21
+            17
+
+      - name: Execute Unit & Contract Acceptance Suite (Suites A-G)
+        run: ./gradlew test assembleDebug --no-daemon
+
+      - name: Run Provenance & Secret Scan Verification (AT-BLD-02, AT-SEC-05, AT-SEC-08)
+        run: python3 devops/release-gates/verify_acceptance_suite.py

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.osiris.android.sdk.SdkContractTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-14T22:42:16.562Z" hostname="Stacey" time="0.364">
+  <properties/>
+  <testcase name="AT-API-04 State Machine Invariants reject 100 illegal state transitions and preserve state" classname="org.osiris.android.sdk.SdkContractTest" time="0.152"/>
+  <testcase name="AT-API-01 Contract Serialization round-trip byte parity" classname="org.osiris.android.sdk.SdkContractTest" time="0.202"/>
+  <testcase name="AT-API-02 Invalid Input Rejection for malformed schemas and unsupported major versions" classname="org.osiris.android.sdk.SdkContractTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
