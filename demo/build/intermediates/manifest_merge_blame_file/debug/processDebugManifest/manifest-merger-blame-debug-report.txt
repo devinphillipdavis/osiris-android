@@ -1,0 +1,40 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.osiris.sovereign.demo" >
+4
+5    <uses-sdk android:minSdkVersion="29" />
+6    <!-- MANIFEST INVARIANT (AT-AND-06): ZERO permissions requested. No INTERNET. No storage scopes. -->
+7    <application
+7-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:6:5-23:19
+8        android:allowBackup="false"
+8-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:7:9-36
+9        android:icon="@android:drawable/sym_def_app_icon"
+9-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:8:9-58
+10        android:label="OSIRIS Sovereign Console (Demonstration)"
+10-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:9:9-65
+11        android:roundIcon="@android:drawable/sym_def_app_icon"
+11-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:10:9-63
+12        android:supportsRtl="true"
+12-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:11:9-35
+13        android:theme="@android:style/Theme.Material.NoActionBar" >
+13-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:12:9-66
+14        <activity
+14-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:14:9-21:20
+15            android:name="org.osiris.sovereign.demo.ui.SovereignConsoleActivity"
+15-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:15:13-56
+16            android:exported="true" >
+16-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:16:13-36
+17            <intent-filter>
+17-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:17:13-20:29
+18                <action android:name="android.intent.action.MAIN" />
+18-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:18:17-69
+18-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:18:25-66
+19
+20                <category android:name="android.intent.category.LAUNCHER" />
+20-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:19:17-77
+20-->/home/enki/osiris-android/demo/src/main/AndroidManifest.xml:19:27-74
+21            </intent-filter>
+22        </activity>
+23    </application>
+24
+25</manifest>

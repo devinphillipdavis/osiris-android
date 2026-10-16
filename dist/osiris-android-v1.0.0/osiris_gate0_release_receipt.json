@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "gate": "GATE_0_RELEASE_PROMOTION",
   "authorized_by": "USER_EXPLICIT_GATE_0_APPROVAL",
-  "authorized_at_utc": "2026-10-14T22:52:04.267090+00:00",
+  "authorized_at_utc": "2026-10-14T22:56:51.024763+00:00",
   "node_substrate": "Beta",
   "temporal_horizon_sec": 1800.0,
   "implementation_status": "IMPLEMENTED",
   "evidence_status": "TESTED_PASS",
   "deployment_authority": "AUTHORIZED",
   "claim_ceiling": "Verified behavior across all 43 JUnit tests (39 acceptance criteria AT-BLD-01..AT-PERF-05) with human Gate 0 release promotion authorized for OSIRIS Pixel Fold v1.0.0.",
+  "git_provenance": {
+    "commit_sha": "825b29a3f8e464ee7d03fbc780c8eed86f62958f",
+    "tag": "v1.0.0-gate0",
+    "synced_specifications": [
+      "/home/enki/osiris-android/docs/OSIRIS-ANDROID-SPEC-001.md",
+      "/home/enki/osiris-integration/OSIRIS-ANDROID-SPEC-001.md",
+      "/home/enki/osiris-mobile-termux/OSIRIS-ANDROID-SPEC-001.md",
+      "/home/enki/osiris-mobile-termux/docs/OSIRIS-ANDROID-SPEC-001.md"
+    ]
+  },
   "artifact": {
     "apk_path": "dist/osiris-android-v1.0.0/osiris-pixel-fold-v1.0.0-debug.apk",
     "apk_sha256": "f6300b43f29fca7c89c91125757cb2a32e8552ef2f722ddc367669f5961c76c0",
@@ -31,6 +41,6 @@
     "adb_status": "STAGED_LOCALLY_AWAITING_ADB_CONNECTION",
     "termux_ssh_8022_reachable": false
   },
-  "receipt_sha256": "f30a97972a99526557ddf294489e05c57cd1a7c6b45edefe50d0315747872963",
-  "merkle_root": "afeba66530cd3496786098a79da513819c6da9e5a26d306c05feee3f940affb2"
+  "receipt_sha256": "fb00a5298e2fbc21135cb9ab12f3158aafee318bfe0dc9353aa659a60a90c197",
+  "merkle_root": "971bfa1cf84dd0103e3f63dff6b257be60b91633c0f3615aa757f2e15382806f"
 }

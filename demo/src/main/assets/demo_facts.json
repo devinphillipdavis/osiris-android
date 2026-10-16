@@ -1,0 +1,25 @@
+{
+  "speaking_gate_status": "CLOSED",
+  "speaking_gate_held_out_loss_bpb": 3.64,
+  "speaking_gate_unigram_baseline_bpb": 4.73,
+  "speaking_gate_measurement": "3.64 BPB held-out loss (3/30 exchanges) vs 4.73 unigram baseline; core at step 6631",
+  "w8l_incident_summary": "W8L-1 / W8L-2 incident: frozen and quarantined pending cryptographic authorization receipt. 0 ambient side-effects.",
+  "fidelity_ceiling": "F_max = 1 - phi^(-8) (simulation design constant)",
+  "alpha_temporal_lock_sec": 300.0,
+  "beta_temporal_lock_sec": 1800.0,
+  "architecture_planes": [
+    ":app",
+    ":core:governance",
+    ":core:ledger",
+    ":core:substrate"
+  ],
+  "proposed_modules": [
+    ":ime",
+    ":bluetooth"
+  ],
+  "package_name": "org.osiris.sovereign.demo",
+  "min_sdk": 29,
+  "target_sdk": 36,
+  "license": "MIT",
+  "prompt_contract": "osiris::}{>"
+}

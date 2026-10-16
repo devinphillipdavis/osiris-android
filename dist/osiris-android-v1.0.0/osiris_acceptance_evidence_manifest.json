@@ -4,10 +4,10 @@
   "temporal_horizon_sec": 1800.0,
   "implementation_status": "IMPLEMENTED",
   "evidence_status": "TESTED_PASS",
-  "deployment_authority": "AUTHORIZED",
+  "deployment_authority": "REQUIRES_APPROVAL",
   "claim_ceiling": "Verified behavior within automated local build, contract, governance, keyboard, foldable UI, and hybrid execution test suites; production deployment requires human Gate 0 authorization.",
   "junit_summary": {
-    "total_tests": 43,
+    "total_tests": 53,
     "failures": 0,
     "errors": 0,
     "suites": [
@@ -20,6 +20,12 @@
       {
         "suite": "com.example.osirisandroid.ui.main.MainScreenViewModelTest",
         "tests": 2,
+        "failures": 0,
+        "errors": 0
+      },
+      {
+        "suite": "org.osiris.sovereign.demo.PeteGordonDemoAcceptanceTest",
+        "tests": 10,
         "failures": 0,
         "errors": 0
       },
@@ -73,7 +79,7 @@
       "arch": "x86_64",
       "timeout_horizon_sec": 1800.0
     },
-    "scanned_files": 68,
+    "scanned_files": 80,
     "findings": [],
     "apk_exists": true,
     "apk_sha256": "f6300b43f29fca7c89c91125757cb2a32e8552ef2f722ddc367669f5961c76c0",
@@ -83,8 +89,5 @@
     "shannon_entropy_bits": 0.959442,
     "wasserstein_2_phi": 2.4e-05,
     "wdw_holonomy_injected": false
-  },
-  "gate0_receipt_sha256": "f30a97972a99526557ddf294489e05c57cd1a7c6b45edefe50d0315747872963",
-  "gate0_merkle_root": "afeba66530cd3496786098a79da513819c6da9e5a26d306c05feee3f940affb2",
-  "gate0_authorized_at_utc": "2026-10-14T22:52:04.267090+00:00"
+  }
 }

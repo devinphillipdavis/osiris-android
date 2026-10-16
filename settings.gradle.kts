@@ -39,5 +39,6 @@ include(
     ":runtime-bridge",
     ":execution",
     ":keyboard",
-    ":app"
+    ":app",
+    ":demo"
 )
