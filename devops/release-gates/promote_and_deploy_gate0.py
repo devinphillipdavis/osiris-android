@@ -43,11 +43,16 @@ def find_adb_binary() -> str | None:
     home = Path.home()
     candidates = [
         home / "android-sdk" / "platform-tools" / "adb",
-        Path(os.environ.get("ANDROID_HOME", "")) / "platform-tools" / "adb",
     ]
+    android_home = os.environ.get("ANDROID_HOME")
+    if android_home:
+        candidates.append(Path(android_home) / "platform-tools" / "adb")
     for c in candidates:
-        if c.is_file() and os.access(c, os.X_OK):
-            return str(c)
+        try:
+            if c.is_file() and os.access(c, os.X_OK):
+                return str(c)
+        except OSError:
+            pass
     which_adb = shutil.which("adb")
     if which_adb:
         return which_adb
