@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "gate": "GATE_0_RELEASE_PROMOTION",
   "authorized_by": "USER_EXPLICIT_GATE_0_APPROVAL",
-  "authorized_at_utc": "2026-10-14T22:56:51.024763+00:00",
+  "authorized_at_utc": "2026-10-17T22:56:13.862355+00:00",
   "node_substrate": "Beta",
   "temporal_horizon_sec": 1800.0,
   "implementation_status": "IMPLEMENTED",
@@ -11,7 +11,7 @@
   "deployment_authority": "AUTHORIZED",
   "claim_ceiling": "Verified behavior across all 43 JUnit tests (39 acceptance criteria AT-BLD-01..AT-PERF-05) with human Gate 0 release promotion authorized for OSIRIS Pixel Fold v1.0.0.",
   "git_provenance": {
-    "commit_sha": "825b29a3f8e464ee7d03fbc780c8eed86f62958f",
+    "commit_sha": "8eb47d2d19a2a0482070bd4ed7d024b5fc3edf02",
     "tag": "v1.0.0-gate0",
     "synced_specifications": [
       "/home/enki/osiris-android/docs/OSIRIS-ANDROID-SPEC-001.md",
@@ -26,21 +26,21 @@
     "apk_size_bytes": 30764977
   },
   "verification_metrics": {
-    "total_junit_tests": 43,
+    "total_junit_tests": 53,
     "failures": 0,
     "errors": 0,
-    "scanned_source_files": 68,
+    "scanned_source_files": 80,
     "security_findings": 0,
     "crsm_shannon_entropy_bits": 0.959442,
     "crsm_wasserstein_2_phi": 2.4e-05,
     "zenodo_parent_doi": "10.5281/zenodo.19505923"
   },
   "node_alpha_deployment": {
-    "adb_binary": "/home/enki/.local/bin/adb",
+    "adb_binary": null,
     "connected_devices": [],
-    "adb_status": "STAGED_LOCALLY_AWAITING_ADB_CONNECTION",
+    "adb_status": "ADB_BINARY_NOT_FOUND",
     "termux_ssh_8022_reachable": false
   },
-  "receipt_sha256": "fb00a5298e2fbc21135cb9ab12f3158aafee318bfe0dc9353aa659a60a90c197",
-  "merkle_root": "971bfa1cf84dd0103e3f63dff6b257be60b91633c0f3615aa757f2e15382806f"
+  "receipt_sha256": "442730a2b85c6613d7cfa7ab18f4c7fae7d4b9245a09cb52abae08044badd284",
+  "merkle_root": "8672daec6b84c254d7046cc17eb77a7780838569f6f74467e2a100b28c3618c6"
 }
